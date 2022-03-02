@@ -1,3 +1,5 @@
+package main.ArraysN;
+
 import java.util.Random;
 import java.util.Scanner;
 public class homework_arrays {
@@ -83,7 +85,6 @@ public class homework_arrays {
                 mass[i][j] = mass[j][i];
                 mass[j][i] = buffer;
             }
-
         }
         for (int i = 0; i < mass.length; i++) {
             for (int j = 0; j < mass[i].length; j++) {
@@ -92,7 +93,6 @@ public class homework_arrays {
             }
             System.out.println(" ");
         }
-
     }
 }
 
