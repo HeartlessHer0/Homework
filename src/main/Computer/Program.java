@@ -2,7 +2,6 @@ package main.Computer;
 import java.util.Scanner;
 public class Program {
     public static void main(String[]args) {
-        int count =2;
         int onoff;
         boolean ended = true;
         Scanner scanner = new Scanner(System.in);
@@ -17,10 +16,8 @@ public class Program {
         onoff = scanner.nextInt();
         comp1.Comp_Off(onoff);
         comp1.Check();
-        if(count==comp1.n/comp1.fullcycles)
+        if(comp1.n/comp1.fullcycles==2)
             break;
-
-
     }
   }
 }

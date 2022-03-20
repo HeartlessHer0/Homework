@@ -9,15 +9,15 @@ public class Program {
             student[i]= new Student();
             student[i].displayInfo();
         }
-       /* int buffer = 0;
+      /* int buffer = 0;
         int j = 0;
         while(sort) {
             sort = false;
             for (j = 0; j < student.length-2; j++) ;
-            if (student[j].score > student[j+1].score) {              Данная сортировка не работает(
-                buffer= student[j].score;                             Поэтому делал через 3 цикла
-                student[j].score=student[j+1].score;
-                student[j+1].score=buffer;
+            if (student[j]> student[j+1]) {
+                buffer= student[j];
+                student[j]=student[j+1];
+                student[j+1]=buffer;
                 sort=true;
             }
         }*/
